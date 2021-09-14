@@ -2,7 +2,7 @@ class config:
     BOT_TOKEN = "1681897256:AAHMzXTaV4GGWlkbnMPkS-ACCQkbZX-myIM"
     APP_ID = "924859"
     API_HASH = "a4c9a18cf4d8cb24062ff6916597f832"
-    DATABASE_URL = "mongodb+srv://user2:user@cluster0.uwhes.mongodb.net/user3"
+    DATABASE_URL = "postgres://flqcbsxszfybwr:a511701c015fc8d94898339af37f3dd23bf0c3a635b2cea177b63ef7a6224cdd@ec2-35-169-188-58.compute-1.amazonaws.com:5432/dcv2o697va5pi8"
     SUDO_USERS = "754495556" # Sepearted by space.
     SUPPORT_CHAT_LINK = "HxSupport"
     DOWNLOAD_DIRECTORY = "./downloads/"
