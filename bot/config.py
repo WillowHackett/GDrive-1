@@ -31,8 +31,8 @@ class Messages:
 
     UPDATE_MSG = [
         ".",
-        f"**         Date:16-08-2021; Monday\n\n__• Added /{BotCommands.Restart[0]} Command [Admin].__\n__• Added /{BotCommands.Log[0]} Command [Admin].__**",
-        f"**         Date:16-05-2021; Sunday\n\n__• Added /{BotCommands.Update[0]} Command.__\n__• Added Logger Support.__**",
+        "**         Date:16-08-2021; Monday\n\n__• Added /{BotCommands.Restart[0]} Command [Admin].__\n__• Added /{BotCommands.Log[0]} Command [Admin].__**",
+        "**         Date:16-05-2021; Sunday\n\n__• Added /{BotCommands.Update[0]} Command.__\n__• Added Logger Support.__**",
         "**Bot Developed by [@ovoIndia](https://github.com/oVoIndia)\n Bot Owned by @HxBots**"
         ]
             
