@@ -3,6 +3,7 @@ asyncio
 pyrogram==1.0.1
 tgcrypto
 oauth2client
+pg_config
 psycopg2-binary
 sqlalchemy==1.3.23
 httplib2
