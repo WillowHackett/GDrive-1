@@ -1,4 +1,13 @@
 import os
+import re
+import json
+import lk21
+import requests
+import wget
+import urllib.parse
+from lk21.extractors.bypasser
+import Bypass
+from bs4 import BeautifulSoup
 from time import sleep
 from pyrogram import Client, filters
 from bot.helpers.sql_helper import gDriveDB, idsDB
@@ -8,6 +17,7 @@ from bot.helpers.gdrive_utils import GoogleDrive
 from bot import DOWNLOAD_DIRECTORY, LOGGER
 from bot.config import Messages, BotCommands
 from pyrogram.errors import FloodWait, RPCError
+from bot.helpers.downloader import download_file, utube_dl, download_fb
 
 @Client.on_message(filters.private & filters.incoming & filters.text & (filters.command(BotCommands.Download) | filters.regex('^(ht|f)tp*')) & CustomFilters.auth_users)
 def _download(client, message):
