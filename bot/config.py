@@ -1,3 +1,6 @@
+#!/usr/bin/env python#
+ -*- coding: utf-8 -*-
+
 class config:
     BOT_TOKEN = "1670920423:AAEqB9HToMNSrdr6baijyHZcYotNFUaGxjA"
     APP_ID = "924859"
