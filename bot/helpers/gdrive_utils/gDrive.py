@@ -23,6 +23,7 @@ logging.getLogger('oauth2client.client').setLevel(logging.ERROR)
 
 class GoogleDrive:
   def __init__(self, user_id):
+    self.__REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob"
     self.__G_DRIVE_DIR_MIME_TYPE = "application/vnd.google-apps.folder"
     self.__G_DRIVE_BASE_DOWNLOAD_URL = "https://drive.google.com/uc?id={}&export=download"
     self.__G_DRIVE_DIR_BASE_DOWNLOAD_URL = "https://drive.google.com/drive/folders/{}"
