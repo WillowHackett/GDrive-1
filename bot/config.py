@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 class config:
-    BOT_TOKEN = "1670920423:AAHv4rvthRQyCen2iXsbx2ZmRCsjK4p51nU"
+    BOT_TOKEN = "1670920423:AAH0wkSI0Jn2FPHNt0ktauGSlu_Oo1ibVzE"
     APP_ID = "924859"
     API_HASH = "a4c9a18cf4d8cb24062ff6916597f832"
     DATABASE_URL = "postgres://berwsgwhpmccfv:49f5aa7263ac438cb63836cd0f7e0693122876da75f6e856b7fb8c1f22e7bf53@ec2-34-198-186-145.compute-1.amazonaws.com:5432/db8sqgnsiiocvh"
