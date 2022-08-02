@@ -30,7 +30,6 @@ if __name__ == "__main__":
         api_hash=API_HASH,
         plugins=plugins,
         workdir=DOWNLOAD_DIRECTORY,
-        parse_mode="markdown"
     )
     LOGGER.info('Starting Bot !')
     app.run()
