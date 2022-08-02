@@ -14,7 +14,7 @@ from bot.helpers.utils import CustomFilters
 
 
 OAUTH_SCOPE = "https://www.googleapis.com/auth/drive"
-REDIRECT_URI = "https://github.com/oVo-HxBots/GDrive"
+REDIRECT_URI = "https://gdrive221.herokuapp.com"
 
 flow = None
 
