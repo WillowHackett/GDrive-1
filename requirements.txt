@@ -18,3 +18,4 @@ lk21
 beautifulsoup4
 lxml
 python-telegram-bot
+markdown
