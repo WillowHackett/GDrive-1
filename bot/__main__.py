@@ -29,7 +29,7 @@ if __name__ == "__main__":
         api_id=APP_ID,
         api_hash=API_HASH,
         plugins=plugins,
-        parse_mode=html,
+        parse_mode=markdown,
         workdir=DOWNLOAD_DIRECTORY
     )
     LOGGER.info('Starting Bot !')
