@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 class config:
-    BOT_TOKEN = "1681897256:AAG8UKn8phH6VcV1mGTZDyr2S9OEYPmW-X0"
+    BOT_TOKEN = "1681897256:AAHLXIbSovlEawv8twJigZekbtrtjwWFxtw"
     APP_ID = "924859"
     API_HASH = "a4c9a18cf4d8cb24062ff6916597f832"
     DATABASE_URL = "postgres://berwsgwhpmccfv:49f5aa7263ac438cb63836cd0f7e0693122876da75f6e856b7fb8c1f22e7bf53@ec2-34-198-186-145.compute-1.amazonaws.com:5432/db8sqgnsiiocvh"
@@ -80,7 +80,7 @@ class Messages:
     
     INVALID_AUTH_CODE = '❗ **Invalid Code**\n__The code you have sent is invalid or already used before. Generate new one by the Authorization URL__'
     
-    AUTH_TEXT = "⛓️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
+    AUTH_TEXT = "⚡️ **To Authorize your Google Drive account visit this [URL]({}) and send the generated code here.**\n__Visit the URL > Allow permissions > you will get a code > copy it > Send it here__"
     
     DOWNLOAD_TG_FILE = "📥 **Downloading File...**\n**Filename:** ```{}```\n**Size:** ```{}```\n**MimeType:** ```{}```"
     
